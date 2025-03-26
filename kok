@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X2KIMO Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: bold;
+            font-style: italic;
+            text-shadow: 3px 3px 10px red;
+        }
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .links a {
+            display: block;
+            font-size: 20px;
+            padding: 15px 25px;
+            background: rgba(0, 0, 0, 0.5);
+            border: 2px solid cyan;
+            border-radius: 10px;
+            color: cyan;
+            text-decoration: none;
+            transition: 0.3s;
+            box-shadow: 0px 0px 10px blue;
+        }
+        .links a:hover {
+            color: red;
+            border-color: red;
+            box-shadow: 0px 0px 15px red;
+        }
+        .contact {
+            margin-top: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px blue;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>X2KIMO</h1>
+    <div class="links">
+        <a href="https://www.facebook.com/share/16FbEWC5gk/" target="_blank">Facebook</a>
+        <a href="https://www.linkedin.com/in/mohamed-amr-50ba63334?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+        <a href="https://www.instagram.com/x2kimo?utm_source=qr&igsh=eG11azFpZWIyY3dl" target="_blank">Instagram</a>
+        <a href="https://t.me/X2KIMO" target="_blank">Telegram</a>
+        <a href="https://www.tiktok.com/@kimo_lv200?_t=ZS-8uzc50OWul5&_r=1" target="_blank">TikTok</a>
+        <a href="https://wa.me/message/TD252GF4YRKFD1" target="_blank">WhatsApp Business</a>
+        <a href="https://wa.me/qr/RVLJ67OCFIQGF1" target="_blank">WhatsApp</a>
+        <a href="https://www.snapchat.com/add/x2kimo?share_id=caWR1X75C1g&locale=ar-EG" target="_blank">Snapchat</a>
+    </div>
+    <div class="contact">
+        <h2>📞 أرقام الهاتف</h2>
+        <p>☎️ 01204688501</p>
+        <p>💰 01005291196 (Vodafone Cash)</p>
+        <p>🏦 01021925518 (InstaPay)</p>
+    </div>
+</body>
+</html>
